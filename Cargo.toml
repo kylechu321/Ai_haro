@@ -1,6 +1,19 @@
 [package]
-name = "Ai_haro"
+name    = "Ai_haro"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+cpal    = "0.16"
+ringbuf = "0.4"
+image   = "0.25"
+rustfft = "6.2"
+winapi  = { version = "0.3", features = [
+    "winuser",
+    "wingdi",
+    "libloaderapi",
+    "tlhelp32",
+    "handleapi",
+    "windef",
+    "minwindef",
+] }
