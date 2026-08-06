@@ -4,10 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-cpal    = "0.16"
-ringbuf = "0.4"
+cpal    = "0.18.1"
+ringbuf = "0.5.1"
 image   = "0.25"
 rustfft = "6.2"
+dotenvy = "0.15"
 winapi  = { version = "0.3", features = [
     "winuser",
     "wingdi",
@@ -17,3 +18,4 @@ winapi  = { version = "0.3", features = [
     "windef",
     "minwindef",
 ] }
+hound = "3.5.1"
